@@ -1,6 +1,5 @@
 package com.intuit.craftdemo.domain.service;
 
-import com.intuit.craftdemo.domain.controller.CraftDemoController;
 import com.intuit.craftdemo.domain.model.entity.CraftEntity;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
