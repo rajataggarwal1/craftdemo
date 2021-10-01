@@ -37,7 +37,7 @@ public class PlayerController {
 //        return responseEntity;
 //    }
 
-    @PostMapping(path= "/players", consumes = "application/json", produces = "application/json")
+    @PostMapping(path= CRAFT_DEMO_MAPPING, consumes = "application/json", produces = "application/json")
     public ResponseEntity<Object> addPlayer(@RequestBody PlayerEntity playerEntity) throws Exception{
 
         //add resource
@@ -45,7 +45,7 @@ public class PlayerController {
 
         //Create resource location
         URI location = ServletUriComponentsBuilder.fromCurrentRequest()
-                .path("/{id}")
+                .path("/{playerId}")
                 .buildAndExpand(playerEntity.getPlayerID())
                 .toUri();
 
