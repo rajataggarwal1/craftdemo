@@ -1,12 +1,9 @@
 package com.intuit.craftdemo;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
-
-@SpringBootTest
+//@SpringBootTest
 class CraftdemoApplicationTests {
 
-	@Test
+	//@Test
 	void contextLoads() {
 	}
 
